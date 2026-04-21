@@ -169,6 +169,7 @@ data:
 {{< note >}}
 CoreDNSはスタブドメインおよびネームサーバーに対してFQDN(例: "ns.foo.com")をサポートしていません。
 そのため、このようなFQDNを指定する設定は利用できません。
+また、変換時には、FQDNのネームサーバーはすべてCoreDNSの設定から省略されます。
 {{< /note >}}
 
 ## {{% heading "whatsnext" %}}

@@ -7,6 +7,7 @@ min-kubernetes-server-version: v1.12
 
 <!-- overview -->
 このページでは、{{< glossary_tooltip text="Pod" term_id="pod" >}}のDNSを設定し、クラスター内のDNS名前解決プロセスをカスタマイズする方法を説明します。
+
 ## {{% heading "prerequisites" %}}
 
 {{< include "task-tutorial-prereqs.md" >}}
